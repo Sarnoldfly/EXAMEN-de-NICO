@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A45E352BE0143C00BB5BF3 /* EXAMEN_de_NICOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E342BE0143C00BB5BF3 /* EXAMEN_de_NICOApp.swift */; };
+		04A45E372BE0143C00BB5BF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E362BE0143C00BB5BF3 /* ContentView.swift */; };
+		04A45E392BE0143C00BB5BF3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E382BE0143C00BB5BF3 /* Item.swift */; };
+		04A45E3B2BE0143E00BB5BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A45E3A2BE0143E00BB5BF3 /* Assets.xcassets */; };
+		04A45E3E2BE0143E00BB5BF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A45E3D2BE0143E00BB5BF3 /* Preview Assets.xcassets */; };
+		04A45E482BE0143F00BB5BF3 /* EXAMEN_de_NICOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E472BE0143F00BB5BF3 /* EXAMEN_de_NICOTests.swift */; };
+		04A45E522BE0143F00BB5BF3 /* EXAMEN_de_NICOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E512BE0143F00BB5BF3 /* EXAMEN_de_NICOUITests.swift */; };
+		04A45E542BE0143F00BB5BF3 /* EXAMEN_de_NICOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E532BE0143F00BB5BF3 /* EXAMEN_de_NICOUITestsLaunchTests.swift */; };
+		04A45E612BE014AE00BB5BF3 /* ModelAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E602BE014AE00BB5BF3 /* ModelAnimal.swift */; };
+		04A45E632BE014DD00BB5BF3 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E622BE014DD00BB5BF3 /* AnimalDetailView.swift */; };
+		04A45E652BE0150A00BB5BF3 /* MostrarEnListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E642BE0150A00BB5BF3 /* MostrarEnListView.swift */; };
+		04A45E6A2BE0152900BB5BF3 /* grito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04A45E662BE0152800BB5BF3 /* grito.mp3 */; };
+		04A45E6B2BE0152900BB5BF3 /* leon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04A45E672BE0152800BB5BF3 /* leon.mp3 */; };
+		04A45E6C2BE0152900BB5BF3 /* olas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04A45E682BE0152800BB5BF3 /* olas.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A45E442BE0143F00BB5BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A45E292BE0143C00BB5BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A45E302BE0143C00BB5BF3;
+			remoteInfo = "EXAMEN de NICO";
+		};
+		04A45E4E2BE0143F00BB5BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A45E292BE0143C00BB5BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A45E302BE0143C00BB5BF3;
+			remoteInfo = "EXAMEN de NICO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A45E312BE0143C00BB5BF3 /* EXAMEN de NICO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EXAMEN de NICO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A45E342BE0143C00BB5BF3 /* EXAMEN_de_NICOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXAMEN_de_NICOApp.swift; sourceTree = "<group>"; };
+		04A45E362BE0143C00BB5BF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04A45E382BE0143C00BB5BF3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		04A45E3A2BE0143E00BB5BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A45E3D2BE0143E00BB5BF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04A45E432BE0143F00BB5BF3 /* EXAMEN de NICOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EXAMEN de NICOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A45E472BE0143F00BB5BF3 /* EXAMEN_de_NICOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXAMEN_de_NICOTests.swift; sourceTree = "<group>"; };
+		04A45E4D2BE0143F00BB5BF3 /* EXAMEN de NICOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EXAMEN de NICOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A45E512BE0143F00BB5BF3 /* EXAMEN_de_NICOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXAMEN_de_NICOUITests.swift; sourceTree = "<group>"; };
+		04A45E532BE0143F00BB5BF3 /* EXAMEN_de_NICOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXAMEN_de_NICOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04A45E602BE014AE00BB5BF3 /* ModelAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelAnimal.swift; sourceTree = "<group>"; };
+		04A45E622BE014DD00BB5BF3 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		04A45E642BE0150A00BB5BF3 /* MostrarEnListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostrarEnListView.swift; sourceTree = "<group>"; };
+		04A45E662BE0152800BB5BF3 /* grito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grito.mp3; sourceTree = "<group>"; };
+		04A45E672BE0152800BB5BF3 /* leon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leon.mp3; sourceTree = "<group>"; };
+		04A45E682BE0152800BB5BF3 /* olas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = olas.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A45E2E2BE0143C00BB5BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A45E402BE0143F00BB5BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A45E4A2BE0143F00BB5BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A45E282BE0143C00BB5BF3 = {
+			isa = PBXGroup;
+			children = (
+				04A45E692BE0152800BB5BF3 /* SONIDOS EXAMEN */,
+				04A45E332BE0143C00BB5BF3 /* EXAMEN de NICO */,
+				04A45E462BE0143F00BB5BF3 /* EXAMEN de NICOTests */,
+				04A45E502BE0143F00BB5BF3 /* EXAMEN de NICOUITests */,
+				04A45E322BE0143C00BB5BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A45E322BE0143C00BB5BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A45E312BE0143C00BB5BF3 /* EXAMEN de NICO.app */,
+				04A45E432BE0143F00BB5BF3 /* EXAMEN de NICOTests.xctest */,
+				04A45E4D2BE0143F00BB5BF3 /* EXAMEN de NICOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A45E332BE0143C00BB5BF3 /* EXAMEN de NICO */ = {
+			isa = PBXGroup;
+			children = (
+				04A45E342BE0143C00BB5BF3 /* EXAMEN_de_NICOApp.swift */,
+				04A45E362BE0143C00BB5BF3 /* ContentView.swift */,
+				04A45E382BE0143C00BB5BF3 /* Item.swift */,
+				04A45E3A2BE0143E00BB5BF3 /* Assets.xcassets */,
+				04A45E3C2BE0143E00BB5BF3 /* Preview Content */,
+				04A45E602BE014AE00BB5BF3 /* ModelAnimal.swift */,
+				04A45E622BE014DD00BB5BF3 /* AnimalDetailView.swift */,
+				04A45E642BE0150A00BB5BF3 /* MostrarEnListView.swift */,
+			);
+			path = "EXAMEN de NICO";
+			sourceTree = "<group>";
+		};
+		04A45E3C2BE0143E00BB5BF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04A45E3D2BE0143E00BB5BF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04A45E462BE0143F00BB5BF3 /* EXAMEN de NICOTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A45E472BE0143F00BB5BF3 /* EXAMEN_de_NICOTests.swift */,
+			);
+			path = "EXAMEN de NICOTests";
+			sourceTree = "<group>";
+		};
+		04A45E502BE0143F00BB5BF3 /* EXAMEN de NICOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A45E512BE0143F00BB5BF3 /* EXAMEN_de_NICOUITests.swift */,
+				04A45E532BE0143F00BB5BF3 /* EXAMEN_de_NICOUITestsLaunchTests.swift */,
+			);
+			path = "EXAMEN de NICOUITests";
+			sourceTree = "<group>";
+		};
+		04A45E692BE0152800BB5BF3 /* SONIDOS EXAMEN */ = {
+			isa = PBXGroup;
+			children = (
+				04A45E662BE0152800BB5BF3 /* grito.mp3 */,
+				04A45E672BE0152800BB5BF3 /* leon.mp3 */,
+				04A45E682BE0152800BB5BF3 /* olas.mp3 */,
+			);
+			path = "SONIDOS EXAMEN";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A45E302BE0143C00BB5BF3 /* EXAMEN de NICO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A45E572BE0143F00BB5BF3 /* Build configuration list for PBXNativeTarget "EXAMEN de NICO" */;
+			buildPhases = (
+				04A45E2D2BE0143C00BB5BF3 /* Sources */,
+				04A45E2E2BE0143C00BB5BF3 /* Frameworks */,
+				04A45E2F2BE0143C00BB5BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EXAMEN de NICO";
+			productName = "EXAMEN de NICO";
+			productReference = 04A45E312BE0143C00BB5BF3 /* EXAMEN de NICO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A45E422BE0143F00BB5BF3 /* EXAMEN de NICOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A45E5A2BE0143F00BB5BF3 /* Build configuration list for PBXNativeTarget "EXAMEN de NICOTests" */;
+			buildPhases = (
+				04A45E3F2BE0143F00BB5BF3 /* Sources */,
+				04A45E402BE0143F00BB5BF3 /* Frameworks */,
+				04A45E412BE0143F00BB5BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A45E452BE0143F00BB5BF3 /* PBXTargetDependency */,
+			);
+			name = "EXAMEN de NICOTests";
+			productName = "EXAMEN de NICOTests";
+			productReference = 04A45E432BE0143F00BB5BF3 /* EXAMEN de NICOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A45E4C2BE0143F00BB5BF3 /* EXAMEN de NICOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A45E5D2BE0143F00BB5BF3 /* Build configuration list for PBXNativeTarget "EXAMEN de NICOUITests" */;
+			buildPhases = (
+				04A45E492BE0143F00BB5BF3 /* Sources */,
+				04A45E4A2BE0143F00BB5BF3 /* Frameworks */,
+				04A45E4B2BE0143F00BB5BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A45E4F2BE0143F00BB5BF3 /* PBXTargetDependency */,
+			);
+			name = "EXAMEN de NICOUITests";
+			productName = "EXAMEN de NICOUITests";
+			productReference = 04A45E4D2BE0143F00BB5BF3 /* EXAMEN de NICOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A45E292BE0143C00BB5BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					04A45E302BE0143C00BB5BF3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					04A45E422BE0143F00BB5BF3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 04A45E302BE0143C00BB5BF3;
+					};
+					04A45E4C2BE0143F00BB5BF3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 04A45E302BE0143C00BB5BF3;
+					};
+				};
+			};
+			buildConfigurationList = 04A45E2C2BE0143C00BB5BF3 /* Build configuration list for PBXProject "EXAMEN de NICO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A45E282BE0143C00BB5BF3;
+			productRefGroup = 04A45E322BE0143C00BB5BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A45E302BE0143C00BB5BF3 /* EXAMEN de NICO */,
+				04A45E422BE0143F00BB5BF3 /* EXAMEN de NICOTests */,
+				04A45E4C2BE0143F00BB5BF3 /* EXAMEN de NICOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A45E2F2BE0143C00BB5BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A45E6B2BE0152900BB5BF3 /* leon.mp3 in Resources */,
+				04A45E6C2BE0152900BB5BF3 /* olas.mp3 in Resources */,
+				04A45E6A2BE0152900BB5BF3 /* grito.mp3 in Resources */,
+				04A45E3E2BE0143E00BB5BF3 /* Preview Assets.xcassets in Resources */,
+				04A45E3B2BE0143E00BB5BF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A45E412BE0143F00BB5BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A45E4B2BE0143F00BB5BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A45E2D2BE0143C00BB5BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A45E372BE0143C00BB5BF3 /* ContentView.swift in Sources */,
+				04A45E392BE0143C00BB5BF3 /* Item.swift in Sources */,
+				04A45E652BE0150A00BB5BF3 /* MostrarEnListView.swift in Sources */,
+				04A45E352BE0143C00BB5BF3 /* EXAMEN_de_NICOApp.swift in Sources */,
+				04A45E612BE014AE00BB5BF3 /* ModelAnimal.swift in Sources */,
+				04A45E632BE014DD00BB5BF3 /* AnimalDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A45E3F2BE0143F00BB5BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A45E482BE0143F00BB5BF3 /* EXAMEN_de_NICOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A45E492BE0143F00BB5BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A45E542BE0143F00BB5BF3 /* EXAMEN_de_NICOUITestsLaunchTests.swift in Sources */,
+				04A45E522BE0143F00BB5BF3 /* EXAMEN_de_NICOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A45E452BE0143F00BB5BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A45E302BE0143C00BB5BF3 /* EXAMEN de NICO */;
+			targetProxy = 04A45E442BE0143F00BB5BF3 /* PBXContainerItemProxy */;
+		};
+		04A45E4F2BE0143F00BB5BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A45E302BE0143C00BB5BF3 /* EXAMEN de NICO */;
+			targetProxy = 04A45E4E2BE0143F00BB5BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A45E552BE0143F00BB5BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A45E562BE0143F00BB5BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A45E582BE0143F00BB5BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EXAMEN de NICO/Preview Content\"";
+				DEVELOPMENT_TEAM = BTLU92MPRR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.EXAMEN-de-NICO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A45E592BE0143F00BB5BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EXAMEN de NICO/Preview Content\"";
+				DEVELOPMENT_TEAM = BTLU92MPRR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.EXAMEN-de-NICO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04A45E5B2BE0143F00BB5BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTLU92MPRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.EXAMEN-de-NICOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EXAMEN de NICO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EXAMEN de NICO";
+			};
+			name = Debug;
+		};
+		04A45E5C2BE0143F00BB5BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTLU92MPRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.EXAMEN-de-NICOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EXAMEN de NICO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EXAMEN de NICO";
+			};
+			name = Release;
+		};
+		04A45E5E2BE0143F00BB5BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTLU92MPRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.EXAMEN-de-NICOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EXAMEN de NICO";
+			};
+			name = Debug;
+		};
+		04A45E5F2BE0143F00BB5BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTLU92MPRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SarnoldFly.EXAMEN-de-NICOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EXAMEN de NICO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A45E2C2BE0143C00BB5BF3 /* Build configuration list for PBXProject "EXAMEN de NICO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A45E552BE0143F00BB5BF3 /* Debug */,
+				04A45E562BE0143F00BB5BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A45E572BE0143F00BB5BF3 /* Build configuration list for PBXNativeTarget "EXAMEN de NICO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A45E582BE0143F00BB5BF3 /* Debug */,
+				04A45E592BE0143F00BB5BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A45E5A2BE0143F00BB5BF3 /* Build configuration list for PBXNativeTarget "EXAMEN de NICOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A45E5B2BE0143F00BB5BF3 /* Debug */,
+				04A45E5C2BE0143F00BB5BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A45E5D2BE0143F00BB5BF3 /* Build configuration list for PBXNativeTarget "EXAMEN de NICOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A45E5E2BE0143F00BB5BF3 /* Debug */,
+				04A45E5F2BE0143F00BB5BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A45E292BE0143C00BB5BF3 /* Project object */;
+}
