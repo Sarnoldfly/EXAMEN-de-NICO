@@ -18,9 +18,6 @@
 		04A45E612BE014AE00BB5BF3 /* ModelAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E602BE014AE00BB5BF3 /* ModelAnimal.swift */; };
 		04A45E632BE014DD00BB5BF3 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E622BE014DD00BB5BF3 /* AnimalDetailView.swift */; };
 		04A45E652BE0150A00BB5BF3 /* MostrarEnListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45E642BE0150A00BB5BF3 /* MostrarEnListView.swift */; };
-		04A45E6A2BE0152900BB5BF3 /* grito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04A45E662BE0152800BB5BF3 /* grito.mp3 */; };
-		04A45E6B2BE0152900BB5BF3 /* leon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04A45E672BE0152800BB5BF3 /* leon.mp3 */; };
-		04A45E6C2BE0152900BB5BF3 /* olas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04A45E682BE0152800BB5BF3 /* olas.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +52,6 @@
 		04A45E602BE014AE00BB5BF3 /* ModelAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelAnimal.swift; sourceTree = "<group>"; };
 		04A45E622BE014DD00BB5BF3 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		04A45E642BE0150A00BB5BF3 /* MostrarEnListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostrarEnListView.swift; sourceTree = "<group>"; };
-		04A45E662BE0152800BB5BF3 /* grito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grito.mp3; sourceTree = "<group>"; };
-		04A45E672BE0152800BB5BF3 /* leon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leon.mp3; sourceTree = "<group>"; };
-		04A45E682BE0152800BB5BF3 /* olas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = olas.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +82,6 @@
 		04A45E282BE0143C00BB5BF3 = {
 			isa = PBXGroup;
 			children = (
-				04A45E692BE0152800BB5BF3 /* SONIDOS EXAMEN */,
 				04A45E332BE0143C00BB5BF3 /* EXAMEN de NICO */,
 				04A45E462BE0143F00BB5BF3 /* EXAMEN de NICOTests */,
 				04A45E502BE0143F00BB5BF3 /* EXAMEN de NICOUITests */,
@@ -144,16 +137,6 @@
 				04A45E532BE0143F00BB5BF3 /* EXAMEN_de_NICOUITestsLaunchTests.swift */,
 			);
 			path = "EXAMEN de NICOUITests";
-			sourceTree = "<group>";
-		};
-		04A45E692BE0152800BB5BF3 /* SONIDOS EXAMEN */ = {
-			isa = PBXGroup;
-			children = (
-				04A45E662BE0152800BB5BF3 /* grito.mp3 */,
-				04A45E672BE0152800BB5BF3 /* leon.mp3 */,
-				04A45E682BE0152800BB5BF3 /* olas.mp3 */,
-			);
-			path = "SONIDOS EXAMEN";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A45E6B2BE0152900BB5BF3 /* leon.mp3 in Resources */,
-				04A45E6C2BE0152900BB5BF3 /* olas.mp3 in Resources */,
-				04A45E6A2BE0152900BB5BF3 /* grito.mp3 in Resources */,
 				04A45E3E2BE0143E00BB5BF3 /* Preview Assets.xcassets in Resources */,
 				04A45E3B2BE0143E00BB5BF3 /* Assets.xcassets in Resources */,
 			);
